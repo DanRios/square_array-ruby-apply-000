@@ -1,8 +1,6 @@
 def square_array(array)
-array = array.to_i  
-new_array = []
-array.each do |i|
-  i ** 2 << new_array
-  return new_array
+array = []
+array.each { |i| array << i ** 2}
+return array
 end
 end
