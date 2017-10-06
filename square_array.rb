@@ -4,3 +4,4 @@ array.each do |i|
   i ** 2 << array
 array
 end
+end
