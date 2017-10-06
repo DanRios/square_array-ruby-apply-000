@@ -5,4 +5,3 @@ array.each do |i|
   return new_array
 end
 end
-
